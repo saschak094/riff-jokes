@@ -1,9 +1,5 @@
-const sessions = {
-  monday: ["lolo"],
-  tuesday: ["lala"],
-  wednesday: ["lele"]
-};
-
-module.exports = day => {
-  return sessions[day][0];
+module.exports = x => {
+  const xx = x ** 2;
+  console.log(`the square of ${x} is ${xx}`);
+  return xx;
 };
