@@ -1,5 +1,8 @@
 module.exports = day => {
-  const xx = x ** 2;
-  console.log(`the square of ${x} is ${xx}`);
-  return xx;
+  const sessions = {
+    monday: ["lolo"],
+    tuesday: ["lala"],
+    wednesday: ["lele"]
+  };
+  return sessions[day][0];
 };
