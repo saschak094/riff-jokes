@@ -1,8 +1,8 @@
 module.exports = day => {
   const sessions = {
-    monday: ["lolo"],
-    tuesday: ["lala"],
-    wednesday: ["lele"]
+    monday: ["abc"],
+    tuesday: ["def"],
+    wednesday: ["ghi"]
   };
   return sessions[day][0];
 };
